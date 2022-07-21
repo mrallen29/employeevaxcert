@@ -17,7 +17,7 @@ https://youtu.be/XChIK_LDot0
 * Nicolas Ralph Laurenz
 * Macabebe Bernadette
 * Rogel Jesica
-# Adviser
+# Professor
 Jefferson A. Costales
 # School Name
 Eulogio "Amang" Rodriguez Insitute of Science and Technology<br />
