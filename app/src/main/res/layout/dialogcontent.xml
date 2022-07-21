@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bground"
+    android:orientation="vertical"
+    >
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update Content Panel"
+        android:background="#959595"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#000"/>
+
+    <EditText
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/uename"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:hint="Name"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VaxCert id"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/uevaxcert"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:hint="vxcert id"
+        android:inputType="textEmailAddress"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/usubmit"
+        android:backgroundTint="#959595"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>
